@@ -12,49 +12,55 @@
 
 <body>
 	<h1>Volunteer Form</h1>
-	<form method="POST" action="http://kriedan@bloomingdale.sat.iit.edu/kriedan/formdemoscript.php" enctype="multipart/form-data">
-		<fieldset>
-			<div class="my_info_input">
-				<p class="f_small_heading">My Info</p>
-				<label>First Name: <input type="text" name="first_name_field" placeholder="first name"></label>
-				<label>Last Name: <input type="text" name="last_name_field" placeholder="last name"></label>
-				<label>Phone Number: <input type="text" name="phone_field" placeholder="phone number"></label>
-				<label>First Name: <input type="email" name="email_field" placeholder="email"></label>
-			</div>
-			<div class="my_info_button">
-				<p>Gender: </p>
-				<label>Male: <input type="radio" name="gender_field" value="m"></label>
-				<label>Female: <input type="radio" name="gender_field" value="f"></label>
-			</div>
-			<div class="my_info_menu">
-				<p>Age: </p>
-				<select name="age_field">
-					<option value="u18">Under 18</option>
-					<option value="1824">18 - 24</option>
-					<option value="2534">25 - 34</option>
-					<option value="3544">35 - 44</option>
-					<option value="4554">45 - 54</option>
-					<option value="5564">55 - 64</option>
-					<option value="65o">65 or Older</option>
-				</select>
-			</div>
-		</fieldset>
-		
-		<fieldset>
-			<p class="f_small_heading">My Availability</p>
-			<div class="my_avail_checkbox">
-				<label>Sunday <input type="checkbox" name="available_field" value="sun"></label>
-				<label>Monday <input type="checkbox" name="available_field" value="mon"></label>
-				<label>Tuesday <input type="checkbox" name="available_field" value="tue"></label>
-				<label>Wednesday <input type="checkbox" name="available_field" value="wed"></label>
-				<label>Thursday <input type="checkbox" name="available_field" value="thu"></label>
-				<label>Friday <input type="checkbox" name="available_field" value="fri"></label>
-				<label>Saturday <input type="checkbox" name="available_field" value="sat"></label>
-			</div>
-			<div class="my_avail_text">
-				<label>Comments: </label>
-				<textarea cols="30" rows="10" name="comments_field" placeholder="Place any comments here."></textarea>
-		</fieldset>
+	<form method="POST" action="http://bloomingdale.sat.iit.edu/kriedan/lab3formscript.php" enctype="multipart/form-data">
+	<fieldset>
+		<div class="my_info_input">
+			<p class="f_small_heading">My Info</p>
+			<label>First Name: <input type="text" name="first_name_field" placeholder="first name"></label>
+			<label>Last Name: <input type="text" name="last_name_field" placeholder="last name"></label>
+			<label>Phone Number: <input type="text" name="phone_field" placeholder="phone number"></label>
+			<label>First Name: <input type="email" name="email_field" placeholder="email"></label>
+		</div>
+		<div class="my_info_button">
+			<p>Gender: </p>
+			<label>Male: <input type="radio" name="gender_field" value="m"></label>
+			<label>Female: <input type="radio" name="gender_field" value="f"></label>
+		</div>
+		<div class="my_info_menu">
+			<p>Age: </p>
+			<select name="age_field">
+				<option value="Under 18">Under 18</option>
+				<option value="18-24">18 - 24</option>
+				<option value="25-34">25 - 34</option>
+				<option value="35-44">35 - 44</option>
+				<option value="45-54">45 - 54</option>
+				<option value="55-64">55 - 64</option>
+				<option value="65 or Older">65 or Older</option>
+			</select>
+		</div>
+	</fieldset>
+	
+	<fieldset>
+		<p class="f_small_heading">My Availability</p>
+		<div class="my_avail_checkbox">
+			<label>Sunday <input type="checkbox" name="available_field" value="Sunday"></label>
+			<label>Monday <input type="checkbox" name="available_field" value="Monday"></label>
+			<label>Tuesday <input type="checkbox" name="available_field" value="Tuesday"></label>
+			<label>Wednesday <input type="checkbox" name="available_field" value="Wednesday"></label>
+			<label>Thursday <input type="checkbox" name="available_field" value="Thursday"></label>
+			<label>Friday <input type="checkbox" name="available_field" value="Friday"></label>
+			<label>Saturday <input type="checkbox" name="available_field" value="Saturday"></label>
+		</div>
+		<div class="my_avail_text">
+			<label>Comments: </label>
+			<textarea cols="30" rows="10" name="comments_field" placeholder="Place any comments here."></textarea>
+	</fieldset>
+	<div class="submit_button">
+		<input type="submit" name="Submit Form">
+	</div>
+	<div class="reset_button">
+		<input type="reset" name="RESET">
+	</div>
 	</form>
 </body>
 </html>
