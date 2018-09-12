@@ -6,35 +6,45 @@
 
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Volunteer Form</title>
-	</head>
+<head>
+	<title>Volunteer Form</title>
+</head>
 
-	<body>
-		<h1>Volunteer Form</h1>
-		<form method="POST" action="http://kriedan@bloomingdale.sat.iit.edu/kriedan/formdemoscript.php" enctype="multipart/form-data">
-			<fieldset>
-				<div class="my_info_input">
-					<p class="f_small_heading">My Info</p>
-					<label>First Name: <input type="text" name="first_name_field" placeholder="first name"></label>
-					<label>Last Name: <input type="text" name="last_name_field" placeholder="last name"></label>
-					<label>Phone Number: <input type="text" name="phone_field" placeholder="phone number"></label>
-					<label>First Name: <input type="email" name="email_field" placeholder="email"></label>
-				</div>
-				<div class="my_info_button">
-					<p>Gender: </p>
-					<label>Male: <input type="radio" name="gender_field" value="m"></label>
-					<label>Female: <input type="radio" name="gender_field" value="f"></label>
-				</div>
-				<div class="my_info_menu">
-					
-				</div>
-			</fieldset>
-			
-			<fieldset>
-				<p class="f_small_heading">My Availability</p>
+<body>
+	<h1>Volunteer Form</h1>
+	<form method="POST" action="http://kriedan@bloomingdale.sat.iit.edu/kriedan/formdemoscript.php" enctype="multipart/form-data">
+		<fieldset>
+			<div class="my_info_input">
+				<p class="f_small_heading">My Info</p>
+				<label>First Name: <input type="text" name="first_name_field" placeholder="first name"></label>
+				<label>Last Name: <input type="text" name="last_name_field" placeholder="last name"></label>
+				<label>Phone Number: <input type="text" name="phone_field" placeholder="phone number"></label>
+				<label>First Name: <input type="email" name="email_field" placeholder="email"></label>
+			</div>
+			<div class="my_info_button">
+				<p>Gender: </p>
+				<label>Male: <input type="radio" name="gender_field" value="m"></label>
+				<label>Female: <input type="radio" name="gender_field" value="f"></label>
+			</div>
+			<div class="my_info_menu">
+				<p>Age: </p>
+				<select name="age_field">
+					<option value="u18">Under 18</option>
+					<option value="1824">18 - 24</option>
+					<option value="2534">25 - 34</option>
+					<option value="3544">35 - 44</option>
+					<option value="4554">45 - 54</option>
+					<option value="5564">55 - 64</option>
+					<option value="65o">65 or Older</option>
 
-			</fieldset>
-		</form>
-	</body>
+				</select>
+			</div>
+		</fieldset>
+		
+		<fieldset>
+			<p class="f_small_heading">My Availability</p>
+
+		</fieldset>
+	</form>
+</body>
 </html>
