@@ -36,14 +36,24 @@
 					<option value="4554">45 - 54</option>
 					<option value="5564">55 - 64</option>
 					<option value="65o">65 or Older</option>
-
 				</select>
 			</div>
 		</fieldset>
 		
 		<fieldset>
 			<p class="f_small_heading">My Availability</p>
-
+			<div class="my_avail_checkbox">
+				<label>Sunday <input type="checkbox" name="available_field" value="sun"></label>
+				<label>Monday <input type="checkbox" name="available_field" value="mon"></label>
+				<label>Tuesday <input type="checkbox" name="available_field" value="tue"></label>
+				<label>Wednesday <input type="checkbox" name="available_field" value="wed"></label>
+				<label>Thursday <input type="checkbox" name="available_field" value="thu"></label>
+				<label>Friday <input type="checkbox" name="available_field" value="fri"></label>
+				<label>Saturday <input type="checkbox" name="available_field" value="sat"></label>
+			</div>
+			<div class="my_avail_text">
+				<label>Comments: </label>
+				<textarea cols="30" rows="10" name="comments_field" placeholder="Place any comments here."></textarea>
 		</fieldset>
 	</form>
 </body>
