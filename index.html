@@ -43,17 +43,18 @@
 	<fieldset>
 		<p class="f_small_heading">My Availability</p>
 		<div class="my_avail_checkbox">
-			<label>Sunday <input type="checkbox" name="available_field" value="Sunday"></label>
-			<label>Monday <input type="checkbox" name="available_field" value="Monday"></label>
-			<label>Tuesday <input type="checkbox" name="available_field" value="Tuesday"></label>
-			<label>Wednesday <input type="checkbox" name="available_field" value="Wednesday"></label>
-			<label>Thursday <input type="checkbox" name="available_field" value="Thursday"></label>
-			<label>Friday <input type="checkbox" name="available_field" value="Friday"></label>
-			<label>Saturday <input type="checkbox" name="available_field" value="Saturday"></label>
+			<label>Sunday <input type="checkbox" name="available_field[]" value="Sunday"></label>
+			<label>Monday <input type="checkbox" name="available_field[]" value="Monday"></label>
+			<label>Tuesday <input type="checkbox" name="available_field[]" value="Tuesday"></label>
+			<label>Wednesday <input type="checkbox" name="available_field[]" value="Wednesday"></label>
+			<label>Thursday <input type="checkbox" name="available_field[]" value="Thursday"></label>
+			<label>Friday <input type="checkbox" name="available_field[]" value="Friday"></label>
+			<label>Saturday <input type="checkbox" name="available_field[]" value="Saturday"></label>
 		</div>
 		<div class="my_avail_text">
 			<label>Comments: </label>
 			<textarea cols="30" rows="10" name="comments_field" placeholder="Place any comments here."></textarea>
+		</div>
 	</fieldset>
 	<div class="submit_button">
 		<input type="submit" name="Submit Form">
