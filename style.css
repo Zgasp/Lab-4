@@ -1,0 +1,14 @@
+
+body{
+	background-color: #ccc;
+}
+.submit_button{
+	background-color: #fff
+	border: none;
+}
+
+.reset_button{
+	background-color: #fff
+	color: #fff;
+	border: none;
+}
